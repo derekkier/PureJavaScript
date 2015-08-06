@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html>
-<title>Web Page Design</title>
+<title>Test</title>
 <head>
-
+<script src="js/prototype/string.js"></script>
 </head>
 <body>
 <p id="p1">My first paragraph</p>
 <p id="p2">My second paragraph</p>
+
+<div id="output">
+	?
+</div>
+<script>
+	var myStr = 'a string';
+	document.getElementById('output').innerHTML+=myStr.utilLength;
+	document.getElementById('output').innerHTML+=myStr.utilReverse();
+	document.getElementById('output').innerHTML+='str length:'+myStr.length;
+</script>
 </body>
 <script src="script.js"></script>
 </html>
